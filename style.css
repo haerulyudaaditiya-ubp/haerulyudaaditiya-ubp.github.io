@@ -1,0 +1,157 @@
+/* Reset margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f7fa; /* Background lembut */
+    color: #444;
+    line-height: 1.5; /* Menyesuaikan jarak baris */
+    padding: 15px; /* Padding lebih kecil */
+    max-width: 800px; /* Lebar maksimum lebih kecil */
+    margin: 0 auto;
+}
+
+/* Profile header */
+.profile-header {
+    background-color: #1d3557; /* Warna biru tua */
+    color: white;
+    padding: 40px 15px; /* Padding lebih kecil */
+    border-radius: 8px 8px 0 0; /* Radius lebih kecil */
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Shadow lebih dalam */
+    position: relative;
+}
+
+.profile-header img {
+    width: 120px; /* Ukuran gambar lebih kecil */
+    height: 120px; /* Ukuran gambar lebih kecil */
+    border-radius: 50%;
+    border: 4px solid white; /* Border lebih kecil */
+    margin-bottom: 15px; /* Margin lebih kecil */
+    object-fit: cover;
+    object-position: 50% 20%; /* Fokus lebih ke bawah */
+    transition: transform 0.3s ease-in-out; /* Animasi pada hover */
+}
+
+.profile-header img:hover {
+    transform: scale(1.05); /* Perbesar sedikit pada hover */
+}
+
+.profile-header h1 {
+    font-size: 2.2em; /* Ukuran font lebih kecil */
+    margin-bottom: 5px; /* Margin lebih kecil */
+    letter-spacing: 0.5px; /* Sedikit jarak antar huruf */
+}
+
+.profile-header p {
+    font-size: 1.1em; /* Ukuran font lebih kecil */
+    color: #c2c7d0; /* Warna teks sedikit lebih terang */
+    margin-bottom: 20px; /* Margin lebih kecil */
+}
+
+/* Profile container */
+.profile-container {
+    background-color: white;
+    padding: 30px; /* Padding lebih kecil */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Bayangan lebih lembut */
+    border-radius: 0 0 8px 8px;
+    margin-top: -20px; /* Untuk membuat efek tumpang tindih */
+    position: relative;
+}
+
+/* Section title */
+.profile-section-title {
+    font-size: 1.4em; /* Ukuran font lebih kecil */
+    color: #1d3557;
+    margin-bottom: 15px; /* Margin lebih kecil */
+    margin-top: 30px; /* Margin atas tetap */
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    text-transform: uppercase; /* Semua huruf kapital */
+    letter-spacing: 0.8px; /* Menambahkan spasi antar huruf */
+}
+
+/* About me */
+.about-me p {
+    font-size: 1em; /* Ukuran font lebih kecil */
+    color: #555;
+    margin-top: 15px; /* Margin lebih kecil */
+    line-height: 1.6; /* Menyesuaikan jarak baris */
+    text-align: justify;
+    padding: 10px; /* Padding lebih kecil */
+    background-color: #f0f4f8; /* Background ringan di sekitar paragraf */
+    border-left: 3px solid #1d3557; /* Garis dekoratif di sebelah kiri */
+}
+
+/* Experience item */
+.experience-item {
+    margin-bottom: 15px; /* Margin bawah lebih kecil */
+    padding-bottom: 15px; /* Padding bawah lebih kecil */
+    border-bottom: 1px solid #d0d0d0;
+    transition: background-color 0.3s ease; /* Animasi background pada hover */
+}
+
+.experience-item:hover {
+    background-color: #f9fafc; /* Background terang pada hover */
+}
+
+.experience-item h3 {
+    font-size: 1.1em; /* Ukuran font lebih kecil */
+    color: #1d3557;
+    margin-bottom: 5px; /* Margin lebih kecil */
+    transition: color 0.3s ease; /* Animasi warna pada hover */
+}
+
+.experience-item h3:hover {
+    color: #e63946; /* Warna merah saat dihover */
+}
+
+.experience-item .role {
+    font-weight: bold;
+    font-size: 1em; /* Ukuran font lebih kecil */
+    color: #2c3e50;
+}
+
+.experience-item .company {
+    font-size: 0.9em; /* Ukuran font lebih kecil */
+    color: #757575;
+    margin-bottom: 5px; /* Margin lebih kecil */
+}
+
+.experience-item .duration {
+    font-size: 0.85em; /* Ukuran font lebih kecil */
+    color: #999;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px; /* Margin lebih kecil */
+    color: #555;
+    font-size: 0.9em; /* Ukuran font lebih kecil */
+    padding: 15px 0; /* Padding lebih kecil */
+    background-color: #f0f0f0; /* Warna background yang ringan */
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+footer:hover {
+    background-color: #dcdcdc; /* Warna background berubah pada hover */
+}
+
+footer a {
+    color: #1d3557;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Animasi warna pada hover */
+}
+
+footer a:hover {
+    color: #e63946; /* Warna merah pada hover */
+    text-decoration: underline;
+}
